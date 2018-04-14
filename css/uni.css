@@ -1,0 +1,224 @@
+
+.main{
+    padding: 0px !important;
+    border: 23px solid #3d585c;
+}
+
+
+.upper-part{
+    
+    background: #3d585c;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.open-university{
+   padding-left: 0px; 
+    
+       
+}
+.open-university p{
+    
+    color: #fff;
+    font-size: 46pt;
+    padding-top: 15px;
+    margin-bottom: 0px;
+
+}
+
+.open-university pre{
+    color: #ccc;
+    font-size: 12pt;
+    background: none;
+    border: none;
+    padding-top: 0px;
+}
+
+.A-ZIndex{
+    
+    left: -25px;
+}
+
+.A-ZIndex ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: -1px;
+}
+
+.A-ZIndex ul li {
+    
+    white-space: nowrap;
+    border-left: 1px solid white;
+    padding: 6px;
+    color: white;
+}
+
+.A-ZIndex ul li a{
+    
+    color: white;
+}
+
+.A-ZIndex ul li:first-child{
+    
+    border-left: none;
+    
+}
+.search-index{
+    
+    margin-top: 25px;
+    padding-right: 0px;
+    margin-right: -24px;
+}
+
+.srch {
+    
+    background: black;
+    color: white;  
+}
+
+.input-group .form-control{
+    background: #304649;
+    color: #ffffff;
+    font-size: 12pt;
+    border: 2px solid white;
+    
+}
+
+
+
+.image {
+    padding: 0px !important;
+    margin-top: -20px;
+    border-bottom: 10px solid black;
+}
+
+.image img {
+   width: 100%; 
+   max-height: 400px;   
+}
+
+.students{
+    margin-top: 25px;  
+    border-bottom: 5px solid #e2e2e2;
+    padding-left: -4px;
+}
+
+.prosp-current{
+    left: -30px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.inter-admission{
+    
+    padding: 0px;
+}
+
+.students p{
+    
+   color: #956767;
+   font-size: 18pt; 
+    text-align: center;
+    display: block;
+    
+}
+
+.application{
+    
+    margin-top: 25px;
+}
+
+.application p{
+    color: #666;
+    font-size: 18pt;   
+}
+
+.congue2{
+    margin-top: 170px;
+}
+
+.latest-news span{
+    color: #660000;
+    font-size: 11pt;
+    
+}
+
+.container-fluid h5{
+    color: #666666;
+    font-size: 18pt;
+}
+
+.latest-news{
+    margin-top: 25px;
+}
+
+.news{
+    margin-right: 20px;
+}
+
+.congue2{
+    margin-top: 132px;
+}
+
+.congue2-1{
+    margin-right: 20px;
+}
+
+.embed-responsive{
+    max-width: 100%;
+    height:auto;
+    
+}
+.tour p{
+    color: #666666;
+    font-size: 11pt;
+}
+.tour{
+    margin-top: 25px;
+}
+
+.tour a{
+    color: #660000;
+    font-size: 10pt;
+}
+
+.list {
+    background: #f2f2f2;
+    border-top: 1px solid #e2e2e2;
+    margin-top: 35px;
+    padding-top: 16px;
+}
+
+.list h5{
+    color: #878787;
+    font-size:18pt;
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 25px;
+}
+
+.list a{
+    color:#660000 ;
+}
+.list li{
+    list-style: none;
+}
+
+.courses-academic{
+    
+    margin-top: 20px;
+}
+
+.campus-depart{
+    margin-top: 20px;
+}
+
+.copy-right{
+    background: black;
+    margin-top: 0px;
+    color: #727272;
+    padding-top: 15px;
+    
+}
+
+
+
