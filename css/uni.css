@@ -1,10 +1,12 @@
-
-.main{
-    padding: 0px !important;
-    border: 23px solid #3d585c;
+nav.navbar{
+	border-radius: 0px;
 }
-
-
+body{
+    background-color: #3d585c !important;
+}
+.main{
+    padding: 15px !important;
+}
 .upper-part{
     
     background: #3d585c;
@@ -50,7 +52,7 @@
     
     white-space: nowrap;
     border-left: 1px solid white;
-    padding: 6px;
+    padding: 0px 6px;
     color: white;
 }
 
@@ -93,19 +95,27 @@
     border-bottom: 10px solid black;
 }
 
+.prosp-student img{
+    height: 200px;
+}
+
 .image img {
    width: 100%; 
-   max-height: 400px;   
+   height: 200px;
 }
 
 .students{
-    margin-top: 25px;  
+    padding-top: 25px;  
     border-bottom: 5px solid #e2e2e2;
     padding-left: -4px;
+    background-color: #fff;
+}
+
+.students img{
+    height: 200px;
 }
 
 .prosp-current{
-    left: -30px;
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -124,8 +134,8 @@
 }
 
 .application{
-    
-    margin-top: 25px;
+    padding-top: 25px;  
+    background-color: #fff;
 }
 
 .application p{
@@ -134,7 +144,12 @@
 }
 
 .congue2{
-    margin-top: 170px;
+    margin-top: 25px;
+}
+
+.latest-news{
+    padding-top: 25px;  
+    background-color: #fff;
 }
 
 .latest-news span{
@@ -148,16 +163,8 @@
     font-size: 18pt;
 }
 
-.latest-news{
-    margin-top: 25px;
-}
-
 .news{
     margin-right: 20px;
-}
-
-.congue2{
-    margin-top: 132px;
 }
 
 .congue2-1{
@@ -169,12 +176,18 @@
     height:auto;
     
 }
+.tour{
+    padding-top: 25px;  
+    background-color: #fff;
+}
 .tour p{
     color: #666666;
     font-size: 11pt;
 }
-.tour{
-    margin-top: 25px;
+
+.news-container{
+    background-color: #fff;
+    padding: 0px !important;
 }
 
 .tour a{
@@ -185,8 +198,7 @@
 .list {
     background: #f2f2f2;
     border-top: 1px solid #e2e2e2;
-    margin-top: 35px;
-    padding-top: 16px;
+    padding-top: 50px;
 }
 
 .list h5{
@@ -221,4 +233,74 @@
 }
 
 
+@media (max-width: 991px){
+    .application > div,
+    .latest-news > div{
+        text-align: center;
+    }
+
+    .application > div img,
+    .latest-news > div img{
+        display: block;
+        margin: auto;
+    }
+
+    .tour{
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px){
+    .open-university{
+        text-align: center;
+        padding: 0px !important;
+    }
+
+    .open-university p{
+        font-size: 40px;
+    }
+
+    .open-university pre{
+        padding: 0px;
+    }
+
+    .login-menu{
+        padding: 0px !important;
+        text-align: center;
+        font-size: 13px;
+        max-width: 400px;
+        margin: auto;
+        float: none !important;
+    }
+
+    .login-menu .pull-right{
+        float: left !important;
+        padding: 0px !important;
+    }
+
+    .list ul{
+        padding: 0px;
+    }
+
+    .list h5,
+    .list ul li,
+    .domain-name,
+    .template{
+        text-align: center;
+    }
+
+    .template p{
+        float: left !important;
+        width: 100%;
+    }
+
+    nav.navbar{
+        margin-top: 30px;
+    }
+
+    .students img {
+        display: block;
+        margin: auto;
+    }
+}
 
